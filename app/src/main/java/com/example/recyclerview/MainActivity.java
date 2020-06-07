@@ -6,20 +6,24 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private ArrayList<Pahlawan> data = new ArrayList<>();
+    private ArrayList<Film> data = new ArrayList<>();
     private RecyclerView recyclerView;
     String[] nama, desc;
     TypedArray photo;
     private Toolbar toolbar;
+    private Button BHapus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +31,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("List Pahlawan");
+        toolbar.setTitle("List Movie");
 
         recyclerView = findViewById(R.id.recyclerview);
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        final PahlawanAdapter pahlawanAdapter = new PahlawanAdapter(this, data);
-        recyclerView.setAdapter(pahlawanAdapter);
+        final FilmAdapter filmAdapter = new FilmAdapter(this, data);
+        recyclerView.setAdapter(filmAdapter);
         getData();
-        pahlawanAdapter.notifyDataSetChanged();
+        filmAdapter.notifyDataSetChanged();
+
+
     }
 
     void prepare() {
@@ -46,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     void addItem() {
         for (int i = 0; i < nama.length; i++) {
-            Pahlawan p = new Pahlawan(nama[i], desc[i], photo.getResourceId(i, -1));
+            Film p = new Film(nama[i], desc[i], photo.getResourceId(i, -1));
             data.add(p);
         }
     }
@@ -55,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         prepare();
         addItem();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

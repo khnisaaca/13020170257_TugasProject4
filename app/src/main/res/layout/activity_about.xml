@@ -19,23 +19,31 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:src="@drawable/movie_logo"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:src="@drawable/aca" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Movie Catalogue"
+        android:text="Khairunisa Arsyad"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#262527"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:text="13020170257"
         android:textAlignment="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplikasi ini merupakan aplikasi Movie Catalogue."
+        android:text="C1"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="20dp"/>
-
+        android:textAlignment="center"/>
 </LinearLayout>

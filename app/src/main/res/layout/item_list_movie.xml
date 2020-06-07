@@ -17,7 +17,7 @@
             android:layout_width="85dp"
             android:layout_height="85dp"
             android:padding="4dp"
-            android:src="@drawable/Rocky"/>
+            android:src="@drawable/rocky"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,22 +28,34 @@
                 android:id="@+id/text_nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ahmad Dahlan"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginLeft="4dp"/>
+                android:text="Rocky"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/text_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deskrispi"
+                android:layout_marginLeft="4dp"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:layout_marginLeft="4dp" />
+                android:text="Deskrispi" />
+
+            <Button
+                android:id="@+id/btn_hapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@android:dimen/thumbnail_width"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="6dp"
+                android:background="@color/design_default_color_error"
+                android:text="Hapus"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
-
-
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

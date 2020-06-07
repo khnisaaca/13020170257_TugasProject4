@@ -25,33 +25,33 @@
     </string-array>
 
     <array name="photo">
-        <item>@drawable/Rocky</item>
-        <item>@drawable/Joker</item>
-        <item>@drawable/Teman_Tapi_Menikah</item>
+        <item>@drawable/rocky</item>
+        <item>@drawable/joker</item>
+        <item>@drawable/teman_tapi_menikah</item>
         <item>@drawable/black_panther</item>
-        <item>@drawable/Up</item>
-        <item>@drawable/Thor</item>
-        <item>@drawable/Bad_Genius</item>
-        <item>@drawable/Homestay</item>
-        <item>@drawable/Thai_Jashe</item>
-        <item>@drawable/Days7</item>
-        <item>@drawable/Friendzone</item>
-        <item>@drawable/Suddenly20</item>
-        <item>@drawable/Jumanji</item>
-        <item>@drawable/Enemy</item>
-        <item>@drawable/Frozen</item>
-        <item>@drawable/A_Gift</item>
-        <item>@drawable/SingleLady</item>
-        <item>@drawable/Honey_I_Blew_Up</item>
-        <item>@drawable/Virgin_Snow</item>
-        <item>@drawable/Friends_never_die</item>
+        <item>@drawable/up</item>
+        <item>@drawable/thor</item>
+        <item>@drawable/badgenius</item>
+        <item>@drawable/homestay</item>
+        <item>@drawable/thaijashe</item>
+        <item>@drawable/days7</item>
+        <item>@drawable/friendzone</item>
+        <item>@drawable/suddenly20</item>
+        <item>@drawable/jumanji</item>
+        <item>@drawable/enemy</item>
+        <item>@drawable/frozen</item>
+        <item>@drawable/gift</item>
+        <item>@drawable/singlelady</item>
+        <item>@drawable/honeyiblewup</item>
+        <item>@drawable/virginsnow</item>
+        <item>@drawable/friends_never_die</item>
     </array>
 
     <string-array name="desc">
         <item>Rocky menceritakan seorang petinju bernama Rocky Balboa yang bertarung melawan juara tinju kelas berat bernama Apollo Creed.</item>
         <item>Film Joker merupakan tontonan bergenre psikologi karya sutradara Todd Phillips yang ia tulis bersama Scott Silver berdasarkan karakter salah satu musuh epos superhero Batman.</item>
         <item>Film Teman Tapi Menikah 2 menceritakan kelanjutan dari kisah asmara Ayudia dan Ditto yang memutuskan menikah setelah belasan tahun berteman..</item>
-        <item>BLACK PANTHER mengisahkan tentang Raja T'Challa yang kembali ke Wakanda setelah peristiwa yang terjadi dalam film CAPTAIN AMERICA: CIVIL WAR dimana sang ayah, T'Chaka tewas. Namun, kembalinya T'Challa sebagai penguasa ini ditentang oleh sebuah kelompok.</item>
+        <item>BLACK PANTHER mengisahkan tentang Raja T\'Challa yang kembali ke Wakanda setelah peristiwa yang terjadi dalam film CAPTAIN AMERICA: CIVIL WAR dimana sang ayah, T\'Chaka tewas. Namun, kembalinya T\'Challa sebagai penguasa ini ditentang oleh sebuah kelompok.</item>
         <item>Up adalah film petualangan komedi-drama animasi[1] CGI Amerika 2009 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. Film ini berpusat pada seorang duda tua bernama Carl Fredricksen (Ed Asner) dan seorang anak lelaki yang sungguh-sungguh bernama Russell (Jordan Nagai).</item>
         <item>Thor adalah film pahlawan super Amerika 2011 berdasarkan karakter Marvel Comics dengan nama yang sama, diproduksi oleh Marvel Studios dan didistribusikan oleh Paramount Pictures.</item>
         <item>Semua bermula ketika Lynn masuk ke sekolah barunya yang dianggap oleh sang ayah mampu memberikan peluang lebih besar bisa sekolah ke luar negeri.</item>
